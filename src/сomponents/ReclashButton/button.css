@@ -1,0 +1,48 @@
+.reclashBtn{
+    width: 330px;
+    min-height: 60px;
+    padding:5px 25px;
+    font-family: 'Londrina Solid', cursive;;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 35px;
+    color: #FCDDCE;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    outline: none;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-text-stroke: 1px black;
+    user-select: none;
+    gap:15px;
+    background-color: transparent;
+
+
+}
+
+.green{
+    background-image: url(./bgBtnGreen.svg);
+}
+.green:hover{
+    background-image: url(./bgBtnGreenHover.svg);
+
+}
+
+.blue{
+    background-image: url(./bgBtnBlue.svg);
+}
+.blue:hover{
+    background-image: url(./bgBtnBlueHover.svg);
+}
+.red{
+    background-image: url(./bgBtnRed.svg);
+}
+.red:hover{
+    background-image: url(./bgBtnRedHover.svg);
+}

@@ -1,0 +1,69 @@
+.mainBG{
+    width: calc(100% - 200px);
+    height: calc(100vh - 200px);
+    background-image:url(../../images/BG.svg);
+    background-size:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    padding: 100px;
+}
+
+.regHeader{
+    font-family: 'JYMMYBOYZ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 63px;
+
+    text-align: center;
+    color: #5FA8D9;
+
+    -webkit-text-stroke: 2px  #453831;
+}
+
+.regCard{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap:25px;
+    background-image: url(../../images/regCard.svg);
+    background-repeat: no-repeat;
+    padding:70px;
+    background-size: 100%;
+}
+
+.tonHeader{
+    height: 100px;
+    width: 100px;
+    background-image: url(../../images/regTon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top:-110px;
+    margin-bottom: -100px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.tonHeader:hover{
+    background-image: url(../../images/regTonActive.svg);
+
+}
+
+@media screen and (max-height: 850px) {
+    .mainBG{
+        width: calc(100% - 100px);
+        height: calc(100vh - 100px);
+        padding: 50px;
+    }
+    .regCard{
+        margin-bottom: -60px;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .mainBG{
+        overflow-y: scroll;
+    }
+}

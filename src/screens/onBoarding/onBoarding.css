@@ -1,0 +1,81 @@
+.main{
+    width: calc(100% - 200px);
+    height: calc(100vh - 200px);
+    background-color: #D94A4A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap:50px;
+}
+.card{
+    background-image: url(../../images/card.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:55px;
+    padding-top: 334px;
+    align-items: center;
+    justify-content: center;
+}
+.forgotLink{
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #453831;
+}
+.footer{
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-height: 1350px) {
+    .main{
+        width: calc(100% - 100px);
+        height: calc(100vh - 100px);
+        padding: 50px;
+
+    }
+}
+
+@media screen and (max-height: 1200px) {
+    .main{
+        gap:25px;
+        width: calc(100% - 50px);
+        height: calc(100vh - 50px);
+        padding: 25px;
+    }
+    .card{
+        margin-top: -50px;
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (max-height: 1050px) {
+    .welcome{
+        height: 75px;
+    }
+}
+
+@media screen and (max-height:950px) {
+    .card{
+        gap:10px;
+        padding: 40px 40px ;
+        padding-top:320px;
+    }
+
+    .main{
+        overflow-y: scroll;
+    }
+}
