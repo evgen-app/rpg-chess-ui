@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./onBoarding.css"
 import welcome from "../../images/welcome.svg"
-import tonLight from "../../images/tonLight.svg"
+import tonLight from "../../images/icons/tonLight.svg"
 import { ReclashInput } from "../../сomponents/ReclashInput";
 import { ReclashButton } from "../../сomponents/ReclashButton";
 import { Link, useNavigate } from "react-router-dom";

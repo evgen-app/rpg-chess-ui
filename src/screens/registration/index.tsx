@@ -3,8 +3,8 @@ import { useNavigate } from "react-router";
 import { ReclashButton } from "../../сomponents/ReclashButton";
 import { ReclashInput } from "../../сomponents/ReclashInput";
 import "./registration.css"
-import tonLight from "../../images/tonLight.svg"
-import backImg from "../../images/back.svg"
+import tonLight from "../../images/icons/tonLight.svg"
+import backImg from "../../images/icons/back.svg"
 
 export const Registration:React.FC = () =>{
     const [wallet, setWallet] = useState("")

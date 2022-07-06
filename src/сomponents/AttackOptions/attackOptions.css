@@ -1,0 +1,30 @@
+.attackOptionsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.attackCard{
+    font-family: 'Londrina Solid';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #453831;
+    height: 55px;
+    width: 207px;
+    background-image: url("../../images/attackOptions.svg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    padding-left: 10px;
+    user-select: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.attackCard:hover{
+    height: 60px;
+    width: 227px;
+}
